@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>WorkExchange</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/White-Logo-Tranparant-300x144.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark fixed-top px-0" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-white d-none d-lg-block">
+                    <a href="index.html"
+                        class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <img src="./img/logo.png" alt="" srcset="" style="width: 130px;">
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-dark d-none d-lg-flex">
+                        <div class="col-lg-7 px-5 text-start">
+                            <div class="h-100 d-inline-flex align-items-center py-2">
+                                <i class="fa fa-phone-alt text-secondary me-2"></i>
+                                <p class="text-white mb-0">(630) 687-9344</p>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-white navbar-light p-3 p-lg-0 justify-space-between">
+                        <a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <img src="./img/logo.png" alt="" srcset="" style="width: 100px;">
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Security</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="#" class="dropdown-item">Data</a>
+                                        <a href="#" class="dropdown-item">Performance</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="nav-item nav-link">Services</a>
+                                <a href="#" class="nav-item nav-link">Pricing</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="#" class="dropdown-item">Blog</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="nav-item nav-link d-none d-lg-block">Contact</a>
+                                <div class="h-100 d-inline-flex align-items-center py-2 d-inline-block d-lg-none">
+                                    <i class="fa fa-phone-alt text-secondary me-2"></i>
+                                    <p class="text-dark mb-0">(630) 687-9344</p>
+                                </div>
+                                <div class="button-div d-inline-block flex-column justify-content-start">
+                                    <a href="#" class="btn btn-primary d-inline-block d-lg-none"
+                                        style="width: unset !important;">Schedule A Call<i
+                                            class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Schedule A
+                                Call<i class="fa fa-arrow-right ms-3"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <div class="banner-container container-fluid p-0 mb-5 h-auto">
+            <div class="image-container h-100">
+                <div class="banner d-flex align-items-center justify-content-center w-100 h-100"
+                    style="background: url('./img/banner.jpg');">
+                    <div class="text-center p-3" style="max-width: 900px;">
+                        <h1 class="display-3 text-white mb-4 animated slideInDown banner-header"> <img
+                                src="./img/White-Logo-Tranparant-300x144.png" alt=""> Know Insurance</h1>
+                        <h3 class="text-white text-uppercase mb-4 animated slideInDown">The New Way To Maximize Agency
+                            Efficiency</h3>
+                        <h5 class="text-white text-uppercase mb-4 animated slideInDown">Insurance Agency Support</h5>
+                        <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book A Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title display-4 text-center text-black text-uppercase">How <img
+                            src="./img/LOGO-TRANSPARENT-no-text-300x143.png" alt=""> Help </h6>
+                </div>
+                <div class="row mt-3">
+                    <div class="wow fadeInUp text-center d-flex flex-column g-1">
+                        <p class="">WorkExchange provides comprehensive employee management services that can help free
+                            up your sales staff from time-consuming and repetitive tasks. By outsourcing these tasks to
+                            us, your sales staff can focus on what they do best – selling.
+                        </p>
+
+                        <p></p>
+                        This not only helps your sales staff stay motivated and productive, but it also leads to more
+                        commissions and better margins for your agency.</p>
+
+                        <p class="h4 text-black">More sales + higher retention + lower staffing cost = profitable
+                            agencies!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title display-5 text-center text-black text-uppercase">Our Process </h6>
+                </div>
+                <div class="row g-4 justify-content-center mt-3">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div
+                                    class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <img src="./img/process-1.png" alt="" class="h-100">
+                                </div>
+                            </div>
+                            <p class="text-body mb-0">You Pick A Date/Time On Our Calendar That Works For You To Discuss
+                                Your Agencies Needs</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div
+                                    class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <img src="./img/process-2.png" alt="" class="h-100">
+                                </div>
+                            </div>
+                            <p class="text-body mb-0">We Screen Candidates Then Present The Best Available For You To
+                                Choose</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div
+                                    class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <img src="./img/process-3.png" alt="" class="h-100">
+                                </div>
+                            </div>
+                            <p class="text-body mb-0">We Onboard By Training About The Insurance Industry And Technology
+                                Used At Your Office</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div
+                                    class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <img src="./img/process-4.png" alt="" class="h-100">
+                                </div>
+                            </div>
+                            <p class="text-body mb-0">Handoff Is 2 Weeks Later. We Manage While You Tailor Their
+                                Workload To Your Agency’s Needs</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 bg-dark">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title display-5 text-center text-white text-uppercase">Our Servies </h6>
+                </div>
+                <div class="row mt-3 text-white">
+                    <div class="wow fadeInUp text-center d-flex flex-column g-1">
+                        <p>WorkExchange is a firm dedicated to providing comprehensive insurance services to agencies
+                            nationwide. Our expert team has extensive experience providing administrative support, data
+                            entry and policy document building, compliance assistance, quality assurance, billing
+                            functions, etc.
+                        </p>
+
+                        <div class="button-div mt-3">
+                            <button class="btn btn-primary text-uppercase" style="width: unset !important;">view all
+                                services</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title display-5 text-center text-black text-uppercase">Where to start </h6>
+                </div>
+                <div class="row mt-3">
+                    <div class="wow fadeInUp text-center d-flex flex-column g-1">
+                        <p class="">Looking for the ultimate way to get administrative help without breaking the bank?
+                            WorkExchange is your ticket! The process doesn’t take long – you’ll have a dedicated team of
+                            professionals picked out and ready to go in no time. With their easy-to-use platform,
+                            quickly connect with potential virtual assistant candidates and then decide who best fits
+                            your needs before they start work on day one. Get WorkExchange today and see how far your
+                            budget can really stretch!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="img-container p-3" style="max-width: 100%; width: 450px; height: 100%; object-fit: cover; background: #ffffff;
+                        box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);">
+                            <img src="./img/insurance-support.png" alt="" style="width: 100%; height: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column text-center text-md-start justify-content-center">
+                        <h1 class="display-1 text-white">Support For Your Insurance Agency</h1>
+                        <p class="mt-3">WorkExchange is your solution to growing your insurance agency without the
+                            hassle.</p>
+                        <div class="d-inline-block">
+                            <button class="btn btn-primary text-uppercase " style="width: unset !important;">about
+                                us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="d-flex flex-column g-2 p-4" style="background: #ffffff;
+                    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08); max-width: 100%; width: 700px;">
+                        <h1 class="text-center">Contact Us To Learn More</h1>
+                        <form action="" class="mt-2">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <label for="">Email <span class="text-danger">*</span></label>
+                                    <input type="email" name="" id="" class="form-control" inputmode="email">
+                                </div>
+                                <div class="col-12">
+                                    <label for="">First Name <span class="text-danger">*</span></label>
+                                    <input type="text" name="" id="" class="form-control" inputmode="none">
+                                </div>
+                                <div class="col-12">
+                                    <label for="">last Name <span class="text-danger">*</span></label>
+                                    <input type="text" name="" id="" class="form-control" inputmode="none">
+                                </div>
+                                <div class="col-12">
+                                    <label for="">Agency <span class="text-danger">*</span></label>
+                                    <input type="text" name="" id="" class="form-control" inputmode="none">
+                                </div>
+                                <div class="col-12">
+                                    <label for="">Website URL <span class="text-danger">*</span></label>
+                                    <input type="text" name="" id="" class="form-control" inputmode="none">
+                                </div><div class="col-12">
+                                    <label for="">What are your needs? <span class="text-danger">*</span></label>
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control" style="resize: none; height: 80px;"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <div class="rounded p-4">
+                            <a href="index.html">
+                                <img src="./img/White-Logo-Tranparant-300x144.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1300 Iroquois Ave #200B</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Naperville, IL, 60563</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(630) 687-9344</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>sales@workexchange.com</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row gy-5 g-4">
+                            <div class="col-12">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
+                                <a class="btn btn-link" href="#">Home</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="btn btn-link nav-link dropdown-toggle"
+                                        data-bs-toggle="dropdown">Security</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="#" class="dropdown-item">Data</a>
+                                        <a href="#" class="dropdown-item">Performance</a>
+                                    </div>
+                                </div>
+                                <a class="btn btn-link" href="#">Services</a>
+                                <a class="btn btn-link" href="#">Pricing</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="btn btn-link nav-link dropdown-toggle"
+                                        data-bs-toggle="dropdown">About</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="#" class="dropdown-item">Blog</a>
+                                    </div>
+                                </div>
+                                <a class="btn btn-link" href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            © 2023 WorkExchange Inc
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
